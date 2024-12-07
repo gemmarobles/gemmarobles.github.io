@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200");
+﻿@import url("https://fonts.googleapis.com/css?family=Roboto:700,500,500italic,400,400italic,300,300italic");
 
 /*
 	Halcyonic by HTML5 UP
@@ -93,8 +93,8 @@ input, select, textarea {
 	body {
 		background: #D4D9DD url("images/bg03.jpg");
 		color: #000000;
-		font-size: 13.5pt;
-		font-family: 'Yanone Kaffeesatz';
+		font-size: 11pt;
+		font-family: 'Roboto';
 		line-height: 1.5em;
 		font-weight: 300;
 	}
@@ -102,7 +102,7 @@ input, select, textarea {
 	input, textarea, select {
 		color: #474f51;
 		font-size: 13.5pt;
-		font-family: 'Yanone Kaffeesatz';
+		font-family: 'Roboto';
 		line-height: 1.85em;
 		font-weight: 300;
 	}
@@ -110,6 +110,14 @@ input, select, textarea {
 	ul, ol, p, dl {
 		margin: 0 0 1em 0;
 	}
+	
+	em, i{
+	font-style:italic;
+    }
+
+    strong{
+    font-weight:700;
+    }
 
 	a {
 		text-decoration: underline;
@@ -1479,24 +1487,19 @@ input, select, textarea {
 		}
 
 	.button-large {
-		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: linear-gradient(top, #ed391b, #ce1a00);
 		display: inline-block;
-		background-color: #ed391b;
-		color: #fff;
-		text-decoration: none;
-		font-size: 1.75em;
-		height: 2em;
-		line-height: 2.125em;
-		font-weight: 300;
-		padding: 0 45px;
-		outline: 0;
-		border-radius: 10px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
-	}
+	background-color: #ed391b;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.75em;
+	height: 2em;
+	line-height: 2.125em;
+	font-weight: 300;
+	padding: 0 45px;
+	outline: 0;
+	border-radius: 10px;
+	background-image: linear-gradient(top, #ed391b, #ce1a00);
+}
 
 		.button-large:hover {
 			background-image: -moz-linear-gradient(top, #fd492b, #de2a10);
@@ -1629,11 +1632,13 @@ input, select, textarea {
 		#content h2 {
 			font-size: 1.8em;
 			color: #373f42;
+			font-weight:400;
 			margin: 0 0 0.25em 0;
 		}
 
 		#content h3 {
 			color: #96a9b5;
+			font-weight:400;
 			font-size: 1.25em;
 		}
 

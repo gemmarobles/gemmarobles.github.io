@@ -4,7 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,500,500italic,400,400italic,300,300italic');
 
 /*
 	Halcyonic by HTML5 UP
@@ -124,6 +124,14 @@
 	ul, ol, p, dl {
 		margin: 0 0 2em 0;
 	}
+
+       em, i{
+	font-style:italic;
+       }
+
+    strong{
+    font-weight:700;
+    }
 
 	a {
 		text-decoration: underline;
@@ -423,12 +431,14 @@
 		h2 {
 			font-size: 1.8em;
 			color: #373f42;
+                        font-weight: 400;
 			margin: 0 0 0.25em 0;
 		}
 
 		h3 {
 			color: #96a9b5;
 			font-size: 1.25em;
+                        font-weight: 400;
 		}
 
 		a {
